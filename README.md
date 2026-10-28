@@ -1,5 +1,10 @@
 # NeuroStudio
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b7814f64-e59f-4582-97bc-96fcad4a603e" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8dbb37a1-99f9-4393-aa89-e9a3d11d3a39" />
+
+
 **A self-hosted, local-first AI training studio.** Inspired by Google's Teachable Machine,
 extended into a general ML workspace: import data, train real models on your own CPU,
 watch live metrics, evaluate honestly, and deploy through a local inference API —
