@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NeuroStudio — Local AI Training Studio</title>
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <div class="brand">
+        <span class="brand-mark">◆</span>
+        <div>
+          <div class="brand-name">NeuroStudio</div>
+          <div class="brand-sub" id="version-line">local-first AI studio</div>
+        </div>
+      </div>
+      <nav id="nav"></nav>
+      <div class="sidebar-foot">
+        <button id="token-btn" class="btn btn-ghost btn-sm" title="Set API token (remote access only)">🔑 Token</button>
+        <span class="foot-note" id="uptime-line"></span>
+      </div>
+    </aside>
+    <main id="main"></main>
+  </div>
+  <div id="toast-root"></div>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
